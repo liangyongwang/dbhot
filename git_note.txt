@@ -13,3 +13,7 @@ git add 文件名
 git add .   当前目录下所有文件
 
 git commit -m 'v1'  提交版本
+
+git config --global user.email "123@qq.com"
+
+git config --global user.name "tony"
