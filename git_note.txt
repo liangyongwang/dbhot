@@ -6,4 +6,10 @@ git --version  查看版本信息
 git init   初始化
 
 
-git status   检测当前目录中的文件按状态
+git status   检测当前目录中的文件按状态  
+
+git add 文件名  
+
+git add .   当前目录下所有文件
+
+git commit -m 'v1'  提交版本
