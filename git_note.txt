@@ -54,3 +54,25 @@ git merge 分支名   合并分支
 git branch -d 分支名   删除分支
 
 
+
+上传代码到GitHub
+	1.给远程仓库起别名
+	git remode add origin（仓库别名） 远程仓库地址 
+	2.向远程推送代码
+	git  commit -u origin 分支
+	
+	
+	拉取代码
+	git clone 远程仓库地址
+	切换分支
+	git checkout 分支
+	
+	再次提交时  直接使用origin别名  即可提交  (git  commit -u origin 分支)
+	
+	git pull origin dev  跟新分支
+	
+	git fetch origin dev 从远程仓库拉取到本地仓库
+	
+	git merge origin/dev 从本地仓库合并到工作区
+		
+
